@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import logo from './logo.jpeg'
 
 function Sidebar() {
 
@@ -25,7 +24,7 @@ function Sidebar() {
                     </a> */}
                     <Link to='/'style={linkColor}>
                         <i className="fas fa-fw fa-tachometer-alt"/>
-                        <img src="logo.jpeg"></img>
+                        <img src="logo.jpeg" style={{ width: '90%' }} alt='img'></img>
                         <span >Dashboard Book-Market</span>
                     </Link>
                 </li>
